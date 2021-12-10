@@ -1,0 +1,75 @@
+{
+    "files.autoSave": "onWindowChange",
+    "terminal.integrated.rendererType": "dom",
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "launch": {
+
+
+
+        "configurations": [],
+        "compounds": []
+    },
+    "explorer.openEditors.visible": 0,
+    "editor.lineHeight": 20,
+    "markdown.preview.lineHeight": 1.2,
+    "markdown.preview.fontSize": 15,
+
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true, // if you would like to enable blade format
+    "[blade]": {
+        "editor.autoClosingBrackets": "always"
+    },
+    "notebook.kernelProviderAssociations": [],
+    "files.associations": {},
+
+    "LaravelExtraIntellisense.phpCommand": "docker exec -w /var/www/your-project -u laradock laradock_workspace_1 php -r \"{code}\"",
+    "LaravelExtraIntellisense.basePathForCode": "/var/www/your-project",
+
+    "artisan.docker.enabled": true,
+    "artisan.docker.command": "docker-compose exec <app>",
+
+    // pritier
+    "editor.defaultFormatter": "HookyQR.beautify",
+    // "[javascript]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+
+    "prettier.documentSelectors": ["**/*.blade.php"],
+
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "javascript": "html"
+    },
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 150,
+    "editor.accessibilityPageSize": 1,
+    "editor.columnSelection": false,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.fastScrollSensitivity": 10,
+    "intelephense.environment.shortOpenTag": true,
+    "intelephense.phpdoc.useFullyQualifiedNames": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 18,
+    "liveServer.settings.donotVerifyTags": true,
+    "git.autofetch": true,
+
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true, // if you would like to enable blade format
+    "[blade]": {
+        "editor.autoClosingBrackets": "always"
+    },
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.windows": "C:\\Program Files\\Git\\bin\\bash.exe (migrated)",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "terminal.integrated.profiles.windows": {
+        "C:\\Program Files\\Git\\bin\\bash.exe (migrated)": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": []
+        }
+    },
+    "editor.tabCompletion": "onlySnippets",
+}
